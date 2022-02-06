@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    height: 70%
+}
+
+html,body #root { height:100%; }
+
+
+.media-card-container{
+  margin: 2.5rem;
+  /* padding: 15px; */
+}
+
+.media-card{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.media-title{
+    margin: 1rem;
+}
+
+.media-title-container{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.media-image-large{
+  object-fit: fill !important;
+  max-width: 18rem
+}
+
+.toggle-button{
+    max-height: 1.5rem;
+}
+
+.media-image{
+  object-fit: fill !important;
+}
+
+.horizontal-align{
+  display:flex;
+  justify-content: center;
+  /* margin: 0 auto; */
+  text-align: center; 
+}
+
+.add-padding{
+  padding: 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .media-title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+
