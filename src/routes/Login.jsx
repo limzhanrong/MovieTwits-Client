@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormControl, Paper, Container, Button, Typography, TextField, Grid } from '@mui/material'
 import serverAPI from '../APIs/serverAPI';
-import PasswordInput from '../components/PasswordInput';
+import PasswordInput from '../components/common/PasswordInput';
 import { AuthContext, SnackBarContext } from '../global/StateContext';
 import { useHistory } from "react-router-dom";
 

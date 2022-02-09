@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Checkbox } from '@mui/material'
-import serverAPI from '../APIs/serverAPI';
+import serverAPI from '../../../APIs/serverAPI';
 
 
 const CheckBoxCustom = ({checked, watchList, watchListModalState, snackBarDispatch, retrieve}) => {

@@ -12,14 +12,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Register from "./routes/Register";
 import Login from "./routes/Login";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/common/NavBar";
 import Movie from "./routes/Movie";
 import Lists from "./routes/UserLists";
 import ListSingle from "./routes/ListSingle";
 import Search from "./routes/Search";
 
 import {AuthProvider, SnackBarContext} from "./global/StateContext";
-import SnackBarCustom from "./components/SnackBarCustom";
+import SnackBarCustom from "./components/common/SnackBarCustom";
 // import AddToWatchListModal from "./components/AddToWatchListModal"
 
 

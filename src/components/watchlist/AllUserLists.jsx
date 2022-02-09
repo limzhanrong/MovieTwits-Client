@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import {List, ListItem, ListItemText, IconButton } from '@mui/material'
 import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
-import Loading from '../components/Loading'
+import Loading from '../common/Loading'
 import DeleteListDialog from './DeleteListDialog';
-import serverAPI from '../APIs/serverAPI';
+import serverAPI from '../../APIs/serverAPI';
 import { useHistory } from "react-router-dom";
 
 

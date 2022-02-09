@@ -1,9 +1,9 @@
 import React, { useContext, useState, useEffect, useCallback, } from 'react'
 import { useParams } from 'react-router'
 import {Box, Grid, Typography, Button } from '@mui/material'
-import AllUserLists from '../components/AllUserLists';
+import AllUserLists from '../components/watchlist/AllUserLists';
 import { AuthContext } from '../global/StateContext';
-import CreateListDialog from '../components/CreateListDialog';
+import CreateListDialog from '../components/watchlist/CreateListDialog';
 import serverAPI from '../APIs/serverAPI';
 
 const Lists = () => {

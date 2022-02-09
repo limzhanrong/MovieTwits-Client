@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
-import MovieSlider from '../components/MovieSlider';
-import TrendingSection from '../components/TrendingSection';
-import AddToWatchListModal from "../components/AddToWatchListModal"
+import MovieSlider from '../components/home/MovieSlider';
+import TrendingSection from '../components/home/TrendingSection';
+import AddToWatchListModal from "../components/common/modale/AddToWatchListModal"
 import {AddToWatchListModalContext} from "../global/StateContext";
 
 

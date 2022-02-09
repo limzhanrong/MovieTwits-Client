@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 import Slider from "react-slick";
-import MediaCard from './MediaCard'
+import MediaCard from '../common/mediacard/MediaCard'
 // import { Skeleton } from '@mui/material';
-import serverAPI from '../APIs/serverAPI';
-import Loading from './Loading';
+import serverAPI from '../../APIs/serverAPI';
+import Loading from '../common/Loading';
 
 
 const MovieSlider = ({endPoint}) => {

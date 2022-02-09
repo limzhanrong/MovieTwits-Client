@@ -4,11 +4,11 @@ import { Modal, Box, Typography, MenuItem , Divider, IconButton,
 } 
   from '@mui/material'
 import CloseSharpIcon from '@mui/icons-material/CloseSharp';
-import { AuthContext, AddToWatchListModalContext } from '../global/StateContext';
-import serverAPI from '../APIs/serverAPI';
+import { AuthContext, AddToWatchListModalContext } from '../../../global/StateContext';
+import serverAPI from 'APIs/serverAPI';
 import CheckBoxCustom from './CheckBoxCustom';
 import CreateWatchListFromForModale from './CreateWatchListFromForModale';
-import { SnackBarContext } from '../global/StateContext';
+import { SnackBarContext } from '../../../global/StateContext';
 
 
 const style = {

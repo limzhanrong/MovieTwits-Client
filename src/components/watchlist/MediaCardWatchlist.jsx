@@ -1,8 +1,8 @@
 import React, {useState, useCallback} from 'react';
-import MediaDropDown from './MediaDropDown';
+import MediaDropDown from '../common/mediacard/MediaDropDown';
 import { CardActionArea, CardContent, CardMedia, Typography, Card, Box } from '@mui/material';
 import { useHistory } from "react-router-dom"
-import serverAPI from '../APIs/serverAPI';
+import serverAPI from '../../APIs/serverAPI';
 import CircularRating from 'components/common/mediacard/CircularRating';
 import defaultImage from "../assets/default.jpeg"
 

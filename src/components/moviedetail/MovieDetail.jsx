@@ -1,10 +1,10 @@
 import React from 'react'
 import { Paper, Grid, Typography, Chip, Box } from "@mui/material"
-import serverAPI from "../APIs/serverAPI"
+import serverAPI from "../../APIs/serverAPI"
 import Image from 'mui-image'
 import Rating from './Rating'
-import Loading from './Loading'
-import { convertDate } from '../helpers/HelperFunction'
+import Loading from '../common/Loading'
+import { convertDate } from '../../helpers/HelperFunction'
 
 const MovieDetail = ({id, media_type}) => {
     const [movieObject, setMovieObject] = React.useState()

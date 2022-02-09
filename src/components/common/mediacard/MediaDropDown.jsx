@@ -3,7 +3,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { Box } from '@mui/system';
-import { AddToWatchListModalContext } from '../global/StateContext';
+import { AddToWatchListModalContext } from '../../../global/StateContext';
 
 
 const MediaDropDown = ({movieObject}) => {

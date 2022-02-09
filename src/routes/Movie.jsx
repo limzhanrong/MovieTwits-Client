@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router'
-import MovieDetail from '../components/MovieDetail'
+import MovieDetail from '../components/moviedetail/MovieDetail'
 import { Button } from '@mui/material'
 
 const Movie = () => {

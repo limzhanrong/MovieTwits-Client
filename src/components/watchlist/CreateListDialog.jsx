@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Dialog, DialogTitle, DialogContent , TextField, DialogActions, Button } from '@mui/material'
-import serverAPI from '../APIs/serverAPI'
+import serverAPI from '../../APIs/serverAPI'
 
 const CreateListDialog = ({ open, setOpen, getUserList }) => {
     const [inputTitle, setInputTitle] = useState("") 

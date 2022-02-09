@@ -3,11 +3,11 @@ import { Box, Pagination, Typography } from '@mui/material';
 import { useParams } from "react-router-dom";
 import { useQuery } from '../global/customHooks';
 import serverAPI from '../APIs/serverAPI';
-import MediaForWatchlist from '../components/MediaForWatchlist';
-import AddToWatchListModal from "../components/AddToWatchListModal"
+import MediaForWatchlist from '../components/watchlist/MediaForWatchlist';
+import AddToWatchListModal from "../components/common/modale/AddToWatchListModal"
 import {AddToWatchListModalContext} from "../global/StateContext";
 import { useHistory } from 'react-router-dom';
-import Loading from '../components/Loading';
+import Loading from '../components/common/Loading';
 
 const Search = () => {
     let query = useQuery();

@@ -6,9 +6,9 @@ import { Typography, Link, Pagination } from '@mui/material'
 import FaceIcon from '@mui/icons-material/Face';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
-import Loading from '../components/Loading'
-import MediaForWatchlist from '../components/MediaForWatchlist'
-import AddToWatchListModal from "../components/AddToWatchListModal"
+import Loading from '../components/common/Loading'
+import MediaForWatchlist from '../components/watchlist/MediaForWatchlist'
+import AddToWatchListModal from "../components/common/modale/AddToWatchListModal"
 import {AddToWatchListModalContext} from "../global/StateContext";
 
 const ListSingle = () => {

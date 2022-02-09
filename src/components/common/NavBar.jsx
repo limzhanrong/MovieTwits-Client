@@ -3,8 +3,8 @@ import {AppBar, Box, Toolbar, Typography, IconButton, MenuItem, Menu, ButtonGrou
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import { useHistory } from "react-router-dom";
-import {AuthContext} from "../global/StateContext";
-import serverAPI from '../APIs/serverAPI';
+import {AuthContext} from "../../global/StateContext";
+import serverAPI from '../../APIs/serverAPI';
 import Search from "./Searchbar";
 
 

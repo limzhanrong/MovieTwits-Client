@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {ToggleButtonGroup, ToggleButton, Grid,} from '@mui/material';
-import MovieSlider from '../components/MovieSlider';
+import MovieSlider from './MovieSlider';
 
 
 const TrendingSection = () => {
